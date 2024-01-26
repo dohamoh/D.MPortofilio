@@ -1,0 +1,34 @@
+section{
+  // overflow: hidden;
+  // height: auto;
+  // background-image: url(../../../assets/images/4NB4.gif);
+  // background-position: center;
+  // background-size: contain;
+  margin-top: 8rem;
+  h1{
+    font-size: 4rem !important;
+    letter-spacing: 10px;
+    span{
+      color: #d7850a;
+      font-size: 6rem;
+      font-family: 'Lora', serif;
+    }
+  }
+  input{
+    background-color: transparent !important;
+  }
+  textarea{
+    background-color: transparent !important;
+  }
+  ul{
+    margin-top: 6rem !important;
+    margin-right: 5rem;
+    li{
+      i{
+        &:hover{
+          color: orange !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+nav{
+  // position: fixed;
+  ul{
+    // overflow: hidden ;
+    top: 50%;
+    right: 2%;
+    li{
+      a{
+        color: #d7850a;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
+li{
+  position: relative;
+  &:hover{
+    ::after{
+      display: block;
+    }
+  }
+}
+li ::after{
+  content: '';
+  display: none;
+  position: absolute;
+  top: 20%;
+  right: 3%;
+  height: 1.5rem;
+  width: .2rem;
+  background-color: #d7850a;
+}
+li ::before{
+  content: '';
+  position: absolute;
+  right: 3%;
+  height: 3rem;
+  width: .2rem;
+  background-color: #c9c6c6;
+}
+

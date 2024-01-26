@@ -1,0 +1,62 @@
+section h2 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 5rem;
+  letter-spacing: 8px;
+}
+section h2 span {
+  font-family: "Lora", serif;
+  font-size: 8rem;
+  color: #d7850a;
+  animation: bounce 0.5 infinite;
+}
+section .myImg {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-image: url(../../../assets/images/me.jpg);
+  background-position: top;
+  background-size: cover;
+  z-index: 10;
+}
+section .black {
+  height: 15rem;
+  width: 15rem;
+  background-image: url(../../../assets/images/orange.gif);
+  background-color: rgb(47, 47, 46);
+  position: absolute;
+  top: 0%;
+  left: 20%;
+}
+section h1 {
+  letter-spacing: 3px;
+}
+section p {
+  line-height: 2;
+}
+section #part2 {
+  margin-top: 8rem;
+}
+section #part2 .shape {
+  height: 5rem;
+  border-top-left-radius: 50rem;
+  border-bottom-right-radius: 50rem;
+  transition: 0.5s;
+}
+section #part2 .shape:hover {
+  background-color: #e89b27 !important;
+  border-top-left-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  border-top-right-radius: 50rem;
+  border-bottom-left-radius: 50rem;
+  transition: 0.5s;
+}
+section #part2 .shape:hover i {
+  color: white !important;
+}
+section #part3 {
+  margin-top: 5rem !important;
+}
+section #part3 i {
+  font-size: 3rem;
+}/*# sourceMappingURL=about.component.css.map */

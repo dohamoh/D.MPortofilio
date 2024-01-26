@@ -1,0 +1,64 @@
+#particles-js {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+section .title {
+  font-family: "Lora", serif;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  padding-top: 3rem;
+  font-size: 5rem;
+}
+section .name {
+  color: white;
+  letter-spacing: 0.5cm;
+  font-size: 5rem;
+  top: 13%;
+  left: 20%;
+}
+section .video-background {
+  width: 100%;
+  height: 100%;
+}
+section video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+section span {
+  display: block;
+}
+section #ani {
+  transition: 1s 2s;
+  overflow: hidden;
+}
+section .animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #855d0e 0%, #654604 29%, #ebc76b 67%, #c7c7c7 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 2rem !important;
+  font-weight: 500;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}/*# sourceMappingURL=home.component.css.map */

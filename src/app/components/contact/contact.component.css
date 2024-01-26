@@ -1,0 +1,25 @@
+section {
+  margin-top: 8rem;
+}
+section h1 {
+  font-size: 4rem !important;
+  letter-spacing: 10px;
+}
+section h1 span {
+  color: #d7850a;
+  font-size: 6rem;
+  font-family: "Lora", serif;
+}
+section input {
+  background-color: transparent !important;
+}
+section textarea {
+  background-color: transparent !important;
+}
+section ul {
+  margin-top: 6rem !important;
+  margin-right: 5rem;
+}
+section ul li i:hover {
+  color: orange !important;
+}/*# sourceMappingURL=contact.component.css.map */
