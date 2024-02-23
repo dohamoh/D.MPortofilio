@@ -1,38 +1,37 @@
 section{
-//  background-image: url(../../../assets/images/4NB4.gif);
-//  background-position: center;
-//  background-size: 60%;
-//  overflow: hidden;
+
   h2{
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: white;
     margin-bottom: 5rem;
     letter-spacing: 8px;
     span{
         font-family: 'Lora', serif;
-        font-size: 8rem;
+        font-size: 7rem;
         color: #d7850a;
         animation: bounce 0.5 infinite;
       }
 
   }
   .myImg{
-    height: 15rem;
-    width: 15rem;
+    height: 13rem;
+    width: 13rem;
     border-radius: 50%;
     background-image: url(../../../assets/images/me.jpg);
     background-position: top;
     background-size: cover;
     z-index: 10;
+    position: absolute;
+    top: 35%;
+    left: 50%;
   }
   .black{
-    height: 15rem;
-    width: 15rem;
-    background-image: url(../../../assets/images/orange.gif);
-    background-color: rgb(47, 47, 46);
-    position: absolute;
-    top: 0%;
-    left: 20%;
+    background-image: url(../../../assets/images/mebg.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 25rem;
+    width: 20rem;
+    opacity: .6;
   }
   h1{
     letter-spacing: 3px;
@@ -61,9 +60,16 @@ section{
     }
   }
   #part3{
-    margin-top: 5rem !important;
+    margin-top: 7rem !important;
     i{
       font-size: 3rem;
+    }
+    h2{
+      letter-spacing: .8rem;
+      span{
+        color: #d7850a;
+        font-size: 4rem;
+      }
     }
   }
 }

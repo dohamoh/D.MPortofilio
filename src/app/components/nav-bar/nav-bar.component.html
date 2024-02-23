@@ -1,19 +1,25 @@
 <nav class="nav-wrapper d-block">
   <ul class="nav flex-column position-fixed">
-    <li class="nav-item">
+    <li class="nav-item" (click)="tab = 'home'">
       <a class="nav-link active2" aria-current="page" href="#home">00</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item" (click)="tab = 'about'">
       <a class="nav-link" href="#aboutMe">01</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link">02</a>
+    <li class="nav-item" (click)="tab = 'projects'">
+      <a class="nav-link" href="#projects">02</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item" (click)="tab = 'contact'">
       <a class="nav-link" href="#contact">03</a>
     </li>
   </ul>
 </nav>
 <app-home></app-home>
 <app-about></app-about>
+<app-projects></app-projects>
 <app-contact></app-contact>
+<app-footer></app-footer>
+<!-- <app-home *ngIf="tab == 'home'"></app-home>
+<app-about *ngIf="tab == 'about'"></app-about>
+<app-contact *ngIf="tab == 'contact'"></app-contact>
+<app-footer *ngIf="tab == 'footer'"></app-footer> -->

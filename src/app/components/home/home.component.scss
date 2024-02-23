@@ -9,13 +9,22 @@
 }
 section {
 //  background-color: black;
-  .title {
-        font-family: 'Lora', serif;
+h1{
+  letter-spacing: 1.3rem;
+  font-size: 5rem !important;
+  font-family: 'Lora', serif;
     text-align: center;
     width: 100%;
     color: #ffffff;
     padding-top: 3rem;
-    font-size: 5rem;
+}
+  .title {
+    font-family: 'Lora', serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 3rem;
+    font-size: 8rem;
   }
 
   .name {
